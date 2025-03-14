@@ -11,19 +11,20 @@ This project looks at why diabetic patients are readmitted to the hospital withi
 
 ## **How the Analysis Was Done**  
 ### 1. **Python (Data Cleaning and Analysis):**  
-- Cleaned the dataset by fixing missing values and removing irrelevant records (like hospice cases).  
-- Created new features to track medication use, repeat visits, and patient outcomes.  
+- Cleaned the dataset by fixing missing values
+- Removed irrelevant records (like death and hospice cases). This is because a patient dying or transferred to a hospice home doesn't represent positive recovery outcome.  
+- Created new features to track medication use and repeat visits.  
 - Explored key factors like:  
    - Patient demographics (age, gender, race)  
-   - Hospital stay details (length of stay, lab tests)  
-   - Medication use (insulin, metformin, combination therapies)  
+   - Hospital stay details (length of stay, lab tests, number of diagnoses, discharge disposition)  
+   - Medication use (insulin, metformin, glipizide, glyburide, combination therapies)  
    - Diagnoses and specialty care  
    - Repeat visits and comorbidities  
 
 ### 2. **Tableau (Dashboard Creation):**  
 - Built a clear and interactive Tableau dashboard to show the patterns and insights visually.  
 - The dashboard includes:  
-   - **Page 1:** Overview of readmission rates by age, gender, race, and hospital stay.  
+   - **Page 1:** Overview of readmission rates by age, gender, and race.  
    - **Page 2:** Key drivers of readmissions (hospital stay, medication use, repeat visits).  
    - **Page 3:** Impact of diagnoses and specialty care on readmissions.
 
@@ -40,7 +41,7 @@ This project looks at why diabetic patients are readmitted to the hospital withi
 👉 **Improve discharge planning** for older and high-risk patients to reduce early readmissions.  
 👉 **Expand combination therapy use** (especially insulin + metformin) to improve recovery rates.  
 👉 **Set up better follow-ups** for patients with heart failure and respiratory issues to reduce early readmissions by **12–15%**.  
-👉 **Create care plans** for repeat and high-risk patients — this could reduce readmissions and save costs.  
+👉 **Create personalised and specialised care plans** for repeat and high-risk patients — this could reduce readmissions and save costs.  
 👉 **Invest in outpatient care** and telehealth to improve long-term recovery and reduce repeat visits.  
 
 
@@ -49,7 +50,7 @@ This project looks at why diabetic patients are readmitted to the hospital withi
 ![Dashboard Overview](./tableau-dashboard/overview.png)  
 
 **Page 2:** Key drivers of readmissions (hospital stay, medication use, repeat visits)  
-![Dashboard Drivers](./tableau-dashboard/readmission_drivers.png)  
+![Dashboard Drivers](./tableau-dashboard/readmission-drivers.png)  
 
 **Page 3:** Impact of diagnoses and specialty care  
 ![Dashboard Diagnoses](./tableau-dashboard/diagnosis_and_specialty.png)
