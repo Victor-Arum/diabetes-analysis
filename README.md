@@ -46,13 +46,13 @@ This project looks at why diabetic patients are readmitted to the hospital withi
 
 ## **Dashboard Preview**  
 **Page 1:** Overview of readmission rates (by age, gender, race)  
-![Dashboard Overview](./tableau-dashboard/dashboard_overview.png)  
+![Dashboard Overview](./tableau-dashboard/overview.png)  
 
 **Page 2:** Key drivers of readmissions (hospital stay, medication use, repeat visits)  
 ![Dashboard Drivers](./tableau-dashboard/readmission_drivers.png)  
 
 **Page 3:** Impact of diagnoses and specialty care  
-![Dashboard Diagnoses](./tableau-dashboard/diagnosis_and_specialy.png)
+![Dashboard Diagnoses](./tableau-dashboard/diagnosis_and_specialty.png)
 
 ## **Live Dashboard**  
 👉 [Click here to view the full Tableau dashboard](https://public.tableau.com/views/DiabetesDashboard-Healthcare/Overview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
